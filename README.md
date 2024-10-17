@@ -1,6 +1,6 @@
 This website is made for my college project.
 
-Click on link to open website: 
+Click on link to open website: https://omkar2240.github.io/RecycleCraft/
 
 "Description of Website"
 
