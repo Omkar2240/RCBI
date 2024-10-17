@@ -1,4 +1,4 @@
-This website is made for my college project.
+This website is made for my college project. (Frontend)
 
 Click on link to open website: https://omkar2240.github.io/RecycleCraft/
 
