@@ -1,0 +1,100 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5EA05C;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+  
+  #newPostForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #newPostForm input, #newPostForm textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #newPostForm button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #newPostForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  #postsContainer {
+    margin-top: 20px;
+  }
+  
+  .post {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .post h3 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .post p {
+    margin-top: 10px;
+  }
+  
+  .replySection {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .reply {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .reply input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .reply button {
+    padding: 5px 10px;
+  }
+  

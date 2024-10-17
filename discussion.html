@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discussion Forum</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Discussion Forum</h1>
+    </header>
+
+    <!-- Posts Section -->
+    <section id="postsSection">
+      <h2>Posts</h2>
+      <div id="postsContainer">
+        <!-- Posts will be displayed here -->
+      </div>
+    </section>
+
+    <!-- New Post Form -->
+    <section id="newPostSection">
+      <h2>Create a New Post</h2>
+      <form id="newPostForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Your name" required>
+
+        <label for="postContent">Post Content</label>
+        <textarea id="postContent" placeholder="Write your post here" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="forum.js"></script>
+</body>
+</html>
