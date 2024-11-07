@@ -1,6 +1,6 @@
 This website is made for my college project. (Frontend)
 
-Click on link to open website: https://omkar2240.github.io/RecycleCraft/
+Click on link to open website: https://recyclecraft.netlify.app/
 
 "Description of Website"
 
